@@ -36,7 +36,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           local-dir: build/
-          server-dir: ./home/tabletop/public_html/
+          server-dir: /home/tabletop/public_html/
 
       - name: Clear Caches
         run: |

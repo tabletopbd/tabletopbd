@@ -34,7 +34,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-        port: ${{ secrets.PORT }}
+        # port: ${{ secrets.PORT }}
         script: |
           cd /home/tabletop/public_html/
           rm -rf *

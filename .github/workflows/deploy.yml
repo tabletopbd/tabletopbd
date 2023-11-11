@@ -42,5 +42,3 @@ jobs:
           whoami
           ls -al
           cd /home/tabletop/public_html/
-          rm -rf *
-          scp -r $GITHUB_WORKSPACE/build/* .

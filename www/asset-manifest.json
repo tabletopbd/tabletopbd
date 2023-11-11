@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "./static/css/main.47cf5c9b.css",
+    "main.js": "./static/js/main.3666e85a.js",
+    "static/js/787.a5727add.chunk.js": "./static/js/787.a5727add.chunk.js",
+    "static/media/hero-bg.jpg": "./static/media/hero-bg.f81d9b156ef3e4600f95.jpg",
+    "static/media/AnekBangla.ttf": "./static/media/AnekBangla.333d8ba53cb38bf552fa.ttf",
+    "static/media/NotoSerifBengali.ttf": "./static/media/NotoSerifBengali.08f70c2ac15c90d272c5.ttf",
+    "static/media/Dhanmondi.png": "./static/media/Dhanmondi.5db0f49d3a1107e4e8ca.png",
+    "static/media/Baily_Road.png": "./static/media/Baily_Road.6a5dcecb173e5caeab33.png",
+    "static/media/Banani.png": "./static/media/Banani.21004396b501af386954.png",
+    "static/media/Uttara.png": "./static/media/Uttara.00c8e6fd27d4b1033b76.png",
+    "static/media/Khilgaon.png": "./static/media/Khilgaon.0f37349a33fd71bcf7c4.png",
+    "static/media/Mirpur.png": "./static/media/Mirpur.f50010aa73a7e36f478c.png",
+    "static/media/Mohammadpur.png": "./static/media/Mohammadpur.f4deb8af2dc3a6ebf2b1.png",
+    "static/media/mobileDashboardBG.jpg": "./static/media/mobileDashboardBG.14819d9d7e03044c8580.jpg",
+    "static/media/TiroBangla-Italic.ttf": "./static/media/TiroBangla-Italic.a31775de11e508256bdd.ttf",
+    "static/media/TiroBangla-Regular.ttf": "./static/media/TiroBangla-Regular.f1fba5532e3ad1adc588.ttf",
+    "static/media/Atma-Regular.ttf": "./static/media/Atma-Regular.f2e6c122e227c46b6f1e.ttf",
+    "static/media/Galada-Regular.ttf": "./static/media/Galada-Regular.96f42dd34b5558ca6dd1.ttf",
+    "static/media/logo.svg": "./static/media/logo.1c75e4759e661e559a330a4b35c7ff97.svg",
+    "static/media/ICTDivision.png": "./static/media/ICTDivision.9569309ccb07c051b5a3.png",
+    "static/media/iDEA.png": "./static/media/iDEA.a324a89df798b6be30df.png",
+    "static/media/TimeLogo.jpg": "./static/media/TimeLogo.d706a0223f252873fde0.jpg",
+    "static/media/PercentageLogo.jpg": "./static/media/PercentageLogo.78d3b87485c9b16cf2b6.jpg",
+    "static/media/LocationLogo.jpg": "./static/media/LocationLogo.04b354c684940287ac12.jpg",
+    "static/media/digital_bangladesh.png": "./static/media/digital_bangladesh.c7738ec947f4a2ca8d83.png",
+    "static/media/mobileContact.png": "./static/media/mobileContact.8ce1e9ceb1622a781c3a.png",
+    "static/media/1.png": "./static/media/1.fb838adc6afc9e87ada0.png",
+    "static/media/mobileTips.png": "./static/media/mobileTips.ab84169af823b10652c4.png",
+    "static/media/App_Store.png": "./static/media/App_Store.c12e486e995f8ef1146c.png",
+    "static/media/Google_Play.png": "./static/media/Google_Play.01b3f994b31f8d7a0bd7.png",
+    "static/media/2.png": "./static/media/2.61f7ba36efdd035dc8fd.png",
+    "index.html": "./index.html",
+    "main.47cf5c9b.css.map": "./static/css/main.47cf5c9b.css.map",
+    "main.3666e85a.js.map": "./static/js/main.3666e85a.js.map",
+    "787.a5727add.chunk.js.map": "./static/js/787.a5727add.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47cf5c9b.css",
+    "static/js/main.3666e85a.js"
+  ]
+}

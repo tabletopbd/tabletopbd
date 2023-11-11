@@ -1,0 +1,41 @@
+.admin-sidenav-link {
+    color: #fff;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    font-weight: 200;
+    padding-left: 3rem;
+}
+.admin-sidenav-link:hover {
+    background-color: azure;
+    color: #333;
+}
+
+.admin-sidenav-link svg {
+    font-size: 15px;
+    margin-right: 8px;
+}
+.admin-cards {
+    text-align: center;
+}
+
+/* Sidebar */
+.sidebar {
+   min-height: 200vh;
+}
+/* Sidebar End */
+@media (max-width: 1024px) {
+     /* Sidebar */
+    .sidebar {
+        min-height: 100%;
+    }
+    /* Sidebar End */
+}
+
+@media (max-width: 680px) {
+    /* Sidebar */
+    .sidebar {
+        min-height: 100%;
+    }
+    /* Sidebar End */
+}

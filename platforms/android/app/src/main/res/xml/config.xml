@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tabletopbd" version="3.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TABLETOP</name>
+    <description>Tabletop is a digital restaurant reservation platform. Where users can enjoy time-based discounts on excellent food. Tabletop connects customers with restaurants via time-based discount.</description>
+    <author email="sakib.works@gmail.com" href="http://sakibian.com">
+        TABLETOP 
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="http://127.0.0.1/MP/*" />
+    <allow-intent href="http://PublicIPAddress//MP/*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <hook src="scripts/prebuild.js" type="before_prepare" />
+    <icon density="mdpi" src="AppIcons/android/mipmap-mdpi/tabletop_android.png" />
+    <icon density="hdpi" src="AppIcons/android/mipmap-hdpi/tabletop_android.png" />
+    <icon density="xhdpi" src="AppIcons/android/mipmap-xhdpi/tabletop_android.png" />
+    <icon density="xxhdpi" src="AppIcons/android/mipmap-xxhdpi/tabletop_android.png" />
+    <icon density="xxxhdpi" src="AppIcons/android/mipmap-xxxhdpi/tabletop_android.png" />
+    <resource-file src="google-services.json" target="/app/google-services.json" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="signed_bundle_keystore_path" value="./tt-android.keystore" />
+    <preference name="signed_bundle_keystore_alias" value="tabletop" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="AppIcons/android/mipmap-xxxhdpi/tabletop_android.png" />
+</widget>

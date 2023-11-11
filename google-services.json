@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "191574427985",
+    "project_id": "tabletop-notification",
+    "storage_bucket": "tabletop-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191574427985:android:af4ca862c56fcf5c2b6b70",
+        "android_client_info": {
+          "package_name": "com.tabletopbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191574427985-9bud8sdett0gsi39p94e4j4rki7rhllk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAasErDZWO54MujcsqDdQOagn2vep95u-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191574427985-9bud8sdett0gsi39p94e4j4rki7rhllk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

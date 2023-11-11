@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+#restaurants-for-mobiles {
+    display: block;
+}
+
+.primary-section {
+    display: none;
+}
+
+#dashboard {
+    margin-top: 30px;
+}
+
+.dashboard {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    display: inline;
+}
+
+.restaurantsBG {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.discount {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#discount {
+    margin-top: 30px;
+}
+
+#discount a {
+    text-decoration: none;
+}
+
+#discount .card-body h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+#restaurantBGM {
+    background-color: #016cb0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: -12px !important;
+}
+
+#locations {
+    margin-top: 20px;
+}
+
+.locations {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#locations .card-body svg {
+    font-size: 2.8rem;
+    padding-top: 0.8rem;
+}
+
+#locations .card-body h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 0.8rem;
+}
+
+#tips {
+    margin-top: 30px;
+}
+
+#follow {
+    margin-top: 30px;
+}
+
+.follow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.main {
+    top: 200px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.header h2 {
+    top: 6px;
+    left: 10px;
+    color: #656a62;
+    position: relative;
+    font-weight: 700 !important;
+}
+.description .headline {
+    /* font-family: 'NotoSerifBengali' !important; */
+    color: #F15922 !important;
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+}
+.description .head-paragraph {
+    /* font-family: 'NotoSerifBengali' !important; */
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: #656a62;
+}
+
+.main a {
+    text-decoration: none;
+    color: #F15922;
+}
+
+.main a h3 {
+    position: absolute;
+    font-weight: 900;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+    font-size: 2.2rem;
+}
+
+.orange-button {
+    font-weight: 700 !important;
+}
+.blue-button {
+    background-color: #016cb0 !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+.blue-button:hover {
+    background-color: #229be6 !important;
+    color: #fff !important;
+}
+.bg-alternate-blue:hover {
+    background-color: #F15922 !important;
+    color: #fff !important;
+}
+.bg-alternate-blue:hover .card-title {
+    color: #fff !important;
+}
+.sponsor h6 {
+    position: fixed;
+    padding: 5px;
+    bottom: 180px;
+    font-size: 0.7rem !important;
+    display: block;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.4;
+}
+.sponsor img {
+    position: fixed;
+    padding: 5px;
+    bottom: 140px;
+    display: block;
+    margin: 0 auto;
+    left: 50%;
+    width: 25% !important;
+    transform: translateX(-50%);
+    opacity: 0.4;
+}
+
+nav.navbar {
+    background-color: #F15922 !important;
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    background-color: #F15922 !important;
+    color: #fff !important;
+}
+
+nav.navbar .navbar-brand {
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+nav.navbar .navbar-nav a {
+    color: #fff;
+}
+
+.mobile-cards-wrapper .col a {
+    text-decoration: none;
+}
+
+.mobile-cards {
+    height: 150px !important;
+    width: 150px !important;
+    /* padding: 0.6rem; */
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.card-title img {
+    transition: transform 0s !important;
+}
+.card-title img:hover {
+    transform: scale(0) !important;
+}
+
+#footer {
+    display: none;
+}
+.favorite-bg svg {
+    width: 120px;
+    height: 120px;
+}
+.favorite-bg {
+    background: #016cb0;
+    color: #fff;
+    min-height: 800px;
+    padding-top: 50%;
+    border-radius: 0px; 
+}
+.footer-restaurant-android {
+    background-color: #F15922;
+    border: 1px solid;
+    box-shadow: 0px 0px 30px 0px #41483c;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.footer-restaurant-android 
+.home a { 
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-restaurant-android 
+.restaurants a { 
+    text-decoration: none;
+    color: #fff;
+}
+.footer-restaurant-android 
+.favorite a { 
+    text-decoration: none;
+    color: #fff;
+}
+.footer-restaurant-android 
+.profile a { 
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-restaurant-android 
+.restaurants svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 6px;
+}
+.footer-restaurant-android 
+.home svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 6px;
+}
+.footer-restaurant-android 
+.favorite svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 6px;
+}
+.footer-restaurant-android 
+.profile svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.footer-restaurant-android .home .active-link {
+    color: lightskyblue;
+}
+.footer-restaurant-android .restaurants .active-link {
+    color: lightskyblue;
+}
+.footer-restaurant-android .favorite .active-link {
+    color: lightskyblue;
+}
+.footer-restaurant-android .profile .active-link {
+    color: lightskyblue;
+}
+/* Start from here */

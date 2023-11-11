@@ -1,0 +1,584 @@
+@font-face {
+  font-family: 'banglaGaladaFont';
+  src: local('banglaGaladaFont'), url(../fonts/Galada-Regular.ttf) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'NotoSerifBengali';
+  src: local('NotoSerifBengali'), url(../fonts/NotoSerifBengali.ttf) format('woff');
+}
+@font-face {
+  font-family: 'TiroBangla-Italic';
+  src: local('TiroBangla-Italic'), url(../fonts/TiroBangla-Italic.ttf) format('woff');
+}
+@font-face {
+  font-family: 'TiroBangla-Regular';
+  src: local('TiroBangla-Regular'), url(../fonts/TiroBangla-Regular.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Atma-Regular';
+  src: local('Atma-Regular'), url(../fonts/Atma-Regular.ttf) format('woff');
+}
+@font-face {
+  font-family: 'AnekBangla';
+  src: local('AnekBangla'), url(../fonts/AnekBangla.ttf) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.primary-section {
+    position: relative;
+}
+
+#banner {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bg-grey {
+    background-color: #808080 !important;
+}
+.bg-dark-grey {
+    background-color: #41483c !important;
+}
+.bg-alternate-blue {
+    background-color: #016cb0 !important;
+}
+.bg-halloween-orange {
+    background-color: #F15922 !important;
+}
+.border-text-white {
+    border: 0.1rem solid #fff !important;
+    /* color: #fff !important; */
+    background-color: transparent !important;
+}
+.border-text-white:hover {
+    border: 0.1rem solid #333 !important;
+    color: #333 !important;
+    background-color: transparent !important;
+}
+
+.text-orange {
+    color: rgba(240,89,34,255) !important;
+}
+.orange-button {
+    background-color: #F15922 !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.orange-button:hover {
+    background-color: #C0471B !important;
+    color: #fff !important;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 5%;
+    left: 2rem;
+    max-width: 650px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.headline {
+    position: relative;
+    font-family: 'AnekBangla';
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.head-paragraph {
+    /* font-family: 'banglaGaladaFont'; */
+    /* font-family: 'NotoSerifBengali'; */
+    /* font-family: 'TiroBangla-Italic'; */
+    /* font-family: 'TiroBangla-Regular'; */
+    /* font-family: 'Atma-Regular'; */
+    font-family: 'AnekBangla';
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.main-cards {
+    height: 26rem !important;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-cards .card-title {
+    margin-top: 0.8rem !important;
+    font-size: 1.8rem !important;
+}
+
+
+.main-cards .card-title p {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 0.4rem;
+}
+
+.main-cards .card-title img {
+    margin: 0.8rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.main-cards .card-subtitle h3 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.secondary-headline {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+.secondary-paragraph {
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 1.5;
+}
+
+.top_tips_section {
+    /* background-color: #808080 !important; */
+    width: 100%;
+    height: auto;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.top_tips_headline {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.top_tips_section .card {
+    height: auto !important;
+    max-width: 100%;
+}
+
+.top_tips_section img {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+    outline: auto;
+}
+
+.top_tips_section .card-subtitle {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.card-title img {
+  transition: transform 1s;
+}
+
+.card-title img:hover {
+    transform: scale(1.6);
+}
+
+/* Landing Page End */
+
+/* Photo Gallery */
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+
+.hovereffect .overlay {
+    width:100%;
+    height:85%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in;
+    transition:all .4s ease-in;
+}
+
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hovereffect h2 {
+    border-top: 2px solid #F26B3B;
+    border-top-width: thin;
+    text-align: center;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.hovereffect a.info {
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .4s ease-in;
+    transition:all .4s ease-in;
+    margin:50% 0 50%;
+    padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+    box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+    -webkit-transition-delay:.2s;
+    transition-delay:.2s;
+}
+
+/* Photo Gallery */
+
+
+/* Home Social */
+.social {
+    background-color: #808080;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #333;
+}
+
+.space {
+    padding-bottom: 2rem;
+}
+
+.grey-border-right {
+    border-right: 4px solid #737373;
+}
+
+.social .h1 {
+    font-size: 3rem !important;
+    font-weight: 300 !important;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #fff;
+}
+
+
+.social .social-media span {
+    padding: 1rem;
+}
+
+.social .social-icon{
+    padding-bottom: 1rem;
+}
+
+
+.social .social-media a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.social .social-media svg {
+    margin-right: 1rem;
+    font-size: 2.6rem;
+}
+/* End Social */
+
+/* Contact Page Icon */
+.contact-page-icon .social-media p {
+    display: inline-flex;
+    padding: 0.2rem;
+}
+
+.contact-page-icon .social-media a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e9ecef;
+}
+
+.contact-page-icon .social-media svg {
+    margin-right: 0.3rem;
+    font-size: 1rem;
+}
+/* Contact Page Icon End */
+
+/* Admin - About */
+.About-header {
+   background-color: rgba(240,89,34,255);
+   min-height: 5vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   font-size: calc(10px + 2vmin);
+   color: white;
+   padding-left: 1rem;
+ }
+
+ .wrapper-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.editor-class {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+/* Admin - About End */
+
+/* Sidebar Contact */
+#contact-sidebar {
+    background-color: #016cb0;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid #1a7ab7;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-sidebar-inside {
+    margin-top: 1em;
+    padding-top: 2em;
+}
+.contact-form {
+    padding-top: 1.6em;
+}
+/* Sidebar Contact End */
+
+/* Restaurants cards  */
+
+.restaurant-card {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+/* Restaurants cards end  */
+
+/* Footer  */
+
+.sponsor img {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.App > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.social-links ul {
+  list-style-type: none;
+  margin-top: 16px;
+  padding: 0;
+  float: right;
+  justify-content: right;
+}
+.social-links li {
+  display: inline;
+}
+
+.social-links li {
+  float: left;
+}
+
+.social-links a {
+  display: block;
+  padding: 8px;
+}
+
+.our-social .brand {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.our-social .brand h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #e9ecef;
+}
+
+/* Mobile devices footer */
+.footer-restaurant-android {
+    display: none;
+}
+/* Mobile devices footer end*/
+
+/* Footer end  */
+
+@media (max-width: 1024px) {
+    #banner {
+        opacity: 0.3;
+    }
+
+    .text-on-image {
+        position: absolute;
+        top: 2rem;
+        left: auto;
+        right: auto;
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .headline {
+        position: relative;
+        font-size: 2rem;
+        color: #333;
+        font-weight: 400;
+    }
+
+    .headline-sub {
+        font-size: 1.2rem;
+        color: #333;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+    }
+
+    .head-paragraph {
+        font-family: 'AnekBangla';
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: #333;
+    }
+
+
+    .top_tips_section img {
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .headline-sub {
+        font-size: 1rem;
+        position: initial;
+        top: 0rem;
+        margin-left: 0;
+    }
+
+    .top_tips_section img {
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .hide-on-sm-device {
+        display: none;
+    }
+
+    .top_tips_section img {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+}
+@media (max-width: 280px) {
+    .hide-on-sm-device {
+        display: none;
+    }
+}
+@media (max-width: 180px) {
+    .hide-on-sm-device {
+        display: none;
+    }
+}

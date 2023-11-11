@@ -23,6 +23,14 @@ jobs:
 
       - name: Build
         run: npm run build
+        
+      - name: Configure SSH Agent
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval "$(ssh-agent)"
+          ssh-add ~/.ssh/id_rsa
 
       - name: Copy Files to VPS
         uses: appleboy/scp-action@master

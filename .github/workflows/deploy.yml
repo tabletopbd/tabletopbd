@@ -29,13 +29,15 @@ jobs:
     needs: build
     steps:
     - name: Deploy to VPS
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v1.0.0
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
         script: |
+          whoami
+          ls -al
           cd /home/tabletop/public_html/
           rm -rf *
           scp -r $GITHUB_WORKSPACE/build/* .

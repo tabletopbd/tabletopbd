@@ -30,7 +30,7 @@ jobs:
     steps:
     - name: Debug SSH Connection
       run: |
-        ssh -vvv -i ~/.ssh/authorized_key -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }}
+        ssh -vvv -i ~/.ssh/id_rsa -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }}
     - name: Deploy to VPS
       uses: appleboy/ssh-action@v1.0.0
       with:
